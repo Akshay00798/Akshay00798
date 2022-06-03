@@ -8,6 +8,9 @@ public class Number_Game {
     public static void main(String[] args) {
         System.out.println("Welcome to Guess the Number Game !");
 
+  /**
+  * Next 2 lines for generating a random number from computer within a certain limit
+   */
         Random num = new Random();
         int Computer_Move = num.nextInt(5 - 1) + 1;
         
